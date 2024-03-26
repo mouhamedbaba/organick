@@ -1,0 +1,48 @@
+# Ignorer les fichiers de virtualenv
+venv/
+.venv/
+
+# Ignorer les fichiers de développement
+*.log
+*.pyc
+
+# Ignorer les fichiers de configuration spécifiques
+config.ini
+local_config.ini
+
+# Ignorer les fichiers de build et de distribution
+dist/
+build/
+
+# Ignorer les fichiers de documentation générés
+docs/
+
+# Ignorer les fichiers de test
+tests/# Ignorer les fichiers de virtualenv
+v.env/
+
+# Ignorer les fichiers de développement
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Ignorer les fichiers de configuration spécifiques
+instance/
+.env
+.venv
+
+# Ignorer les fichiers de build et de distribution
+*.egg-info/
+dist/
+build/
+
+# Ignorer les fichiers de documentation générés
+docs/_build/
+
+# Ignorer les fichiers de cache
+*.log
+*.sqlite
+
+# Ignorer les fichiers de test
+tests/
