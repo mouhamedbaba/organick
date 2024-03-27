@@ -4,13 +4,14 @@
 
 .nav-items a {
     text-decoration: none;
-    color: var(--black-color);
+    color: var(--secondary-color);
     font-weight: bold;
 }
 
 .nav-items a:hover {
     color: var(--primary-color);
 }
+
 
 .nav-logo {
     width: 36px;
