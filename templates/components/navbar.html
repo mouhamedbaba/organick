@@ -1,5 +1,5 @@
-<header>
-    <nav class="container">
+<header class="fixed-top">
+    <nav class="container  bg-white">
         <div class="d-flex flex-wrap justify-between items-center py-5 ">
             <a class="logo-container d-flex gap-1 items-center" href="/">
                 <img class="nav-logo" src="/static/images/logo.svg" alt="logo" />
@@ -13,11 +13,11 @@
                         </g>
                         </svg>
                 </button>
-                <ul class="d-flex gap-4 nav-items mobile-none">
-                    <li class="nav-item"><a href="/" class="nav-link">Acceuil</a></li>
-                    <li class="nav-item"><a href="/" class="nav-link">A propos</a></li>
-                    <li class="nav-item"><a href="/" class="nav-link">Services</a></li>
-                    <li class="nav-item"><a href="/" class="nav-link">Contact</a></li>
+                <ul class="d-flex gap-6 nav-items mobile-none">
+                    <li class="nav-item"><a href= "{{ url_for('home' ) }}" class="nav-link">Acceuil</a></li>
+                    <li class="nav-item"><a href="{{ url_for('about' ) }}" class="nav-link">A propos</a></li>
+                    <li class="nav-item"><a href="{{ url_for('services' ) }}" class="nav-link">Services</a></li>
+                    <li class="nav-item"><a href="{{ url_for('contact' ) }}" class="nav-link">Contact</a></li>
                 </ul>
             </div>
         </div>
