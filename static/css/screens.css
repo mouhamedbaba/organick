@@ -1,0 +1,33 @@
+@media screen and (max-width : 612px) {
+    .mobile-none{
+        display: none;
+    }
+    .mobile-block{
+        display: block;
+    }
+    .mobile-colums{
+        flex-direction: column;
+    }
+    .mobile-full{
+        width: 100% !important;
+    }
+    .mobile-justify-start{
+        justify-content: start;
+    }
+    .mobile-items-end{
+        align-items: start;
+    }
+    .mobile-text-center{
+        text-align: center;
+    }
+    .mobile-text-start{
+        text-align: start;
+    }
+    .mobile-p-0{
+        padding: 0 !important;
+    }
+    .mobile-m-0{
+        margin: 0 !important;
+    }
+
+}

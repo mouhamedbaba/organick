@@ -23,6 +23,9 @@ body{
 .d-flex {
     display: flex;
 }
+.d-none{
+    display: none;
+}
 .flex-wrap{
     flex-wrap: wrap;
 }
@@ -75,6 +78,10 @@ body{
 
 .py-10{
     padding: 5% 0;
+}
+
+.py-5{
+    padding: 2.5% 0;
 }
 
 
@@ -133,8 +140,13 @@ body{
     font-size: smaller;
 }
 
+
 .bg-primary{
     background-color: var(--primary-color);
+}
+
+.stroke-primary{
+    stroke: var(--primary-color);
 }
 
 .px-10{
@@ -154,4 +166,11 @@ body{
 }
 .cursor-pointer{
     cursor: pointer;
+}
+.bg-tansparent{
+    background: transparent;
+}
+
+.border-none{
+    border: none;
 }

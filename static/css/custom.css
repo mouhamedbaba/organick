@@ -57,3 +57,18 @@
 .single-rs-container:hover svg .svg-rs{
     fill: white;
 }
+.btn-menu-nav{
+    border-radius: 5px;
+    padding: 0;
+}
+.btn-menu-nav:hover{
+    background-color: var(--color-green-200);
+}
+
+.btn-menu-nav:focus{
+    background-color: var(--secondary-color);
+}
+
+.btn-menu-nav:focus svg .stroke-primary{
+    stroke: white;
+}
