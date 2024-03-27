@@ -3,8 +3,8 @@
     "builds": [
         {
             "src" : "./index.py",
-            "use" : "@vercel/python3",
-            "config" :{"runtime":"python3"}
+            "use" : "@vercel/python",
+            "config" :{"runtime":"python3.9"}
         }
     ],
     "routes" : [
