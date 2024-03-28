@@ -58,6 +58,10 @@ h6 {
     position: relative;
 }
 
+.absolute{
+    position: absolute;
+}
+
 .container {
     margin: 0 8%;
 }
@@ -555,3 +559,4 @@ h6 {
 .rounded{
     border-radius: 8px;
 }
+

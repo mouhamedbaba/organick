@@ -119,6 +119,11 @@
     color: white;
     font-weight: bold;
     cursor: pointer;
+    opacity: 95%;
+}
+
+.btn:hover{
+    opacity: 100%;
 }
 
 .btn-primary {
@@ -145,6 +150,11 @@
     background-color: transparent;
     color: var(--secondary-color);
     border: 1px solid var(--secondary-color);
+}
+
+.btn-white{
+    color: var(--secondary-color);
+    background-color: white;
 }
 
 .btn-outline-reverse{
@@ -401,9 +411,39 @@ ul{
 }
 
 .round-testi{
-    /* padding: 20px; */
     border-radius: 100%;
     background: #F1F1F1;
     height: 100%;
     width: 100%;
+}
+
+.card-nature{
+    margin-top: 5%;
+    margin-left: 45%;
+    padding: 5%;
+}
+.img-overlay{
+    border-radius: 0px 10px 10px 0px;
+    overflow: hidden;
+}
+
+
+.presentation{
+    background-color: #F1F8F4;
+}
+
+.presentation-bg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.presentation-bg-1{
+    background-image: url("/static/images/pres-1.jpg");
+}
+.presentation-bg-2{
+    background-image: url("/static/images/pres-4.png");
+}
+.presentation-bg-3{
+    background-image: url("/static/images/pres-3.jpg");
 }
