@@ -274,3 +274,9 @@ textarea{
 .img-cqnfs{
 
 }
+
+.rounded-green-cercle{
+    padding: 1%;
+    border: #3A7734 solid 4px;
+    border-radius: 100%;
+}
