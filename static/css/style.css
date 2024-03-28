@@ -164,6 +164,7 @@ h6 {
     padding: 10% !important;
 }
 
+
 .p-20p {
     padding: 20% !important;
 }
@@ -191,6 +192,14 @@ h6 {
 .py-20 {
     padding-top: 10%;
     padding-bottom: 10%;
+}
+
+.pt-10{
+    padding-top: 10%;
+}
+
+.pt-20 {
+    padding-top: 10%;
 }
 
 .py-5 {
@@ -292,6 +301,10 @@ h6 {
 .px-10 {
     padding-left: 10%;
     padding-right: 10%;
+}
+
+.pt-5{
+    padding-top: 4rem;
 }
 
 
@@ -537,3 +550,8 @@ h6 {
 }
 
 .align-self-center{align-self: center}
+
+
+.rounded{
+    border-radius: 8px;
+}

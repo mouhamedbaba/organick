@@ -357,3 +357,53 @@ ul{
 .banner-promo-2{
     background-image: url("/static/images/promo2.jpg");
 }
+
+
+.banner-about-home {
+    background: #F9F8F8;
+}
+
+
+.testi-banner{
+    background-image: url("/static/images/testi-banner.png");
+    /* height: 120vh; */
+    background-position: center;
+}
+
+.avatar{
+    height: 60px;
+    width: 60px;
+    background-color: #F4F4F4;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.dot{
+    background-color: #e2e3e5;
+    height: 8px;
+    width: 8px;
+    border-radius: 100%;
+}
+.dot.active{
+    background-color: var(--primary-color);
+}
+
+.divide-x{
+    width: 100%;
+    background-color: var(--gray-color);
+    height: 2px;
+}
+
+.round-testi-container{
+    border: 2px solid var(--primary-color);
+    height: 150px;
+    width: 150px;
+}
+
+.round-testi{
+    /* padding: 20px; */
+    border-radius: 100%;
+    background: #F1F1F1;
+    height: 100%;
+    width: 100%;
+}
