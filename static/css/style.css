@@ -134,9 +134,52 @@ font-weight: 500;
     gap: 2rem;
 }
 
-.p-2 {
-    padding: 2px;
+/* Padding dans toutes les directions */
+.p-0 {
+    padding: 0 !important;
 }
+
+.p-1 {
+    padding: 0.25rem !important;
+}
+
+.p-2 {
+    padding: 0.5rem !important;
+}
+
+.p-3 {
+    padding: 1rem !important;
+}
+
+.p-4 {
+    padding: 1.5rem !important;
+}
+
+.p-5 {
+    padding: 3rem !important;
+}
+
+/* Padding dans toutes les directions en pourcentage */
+.p-10p {
+    padding: 10% !important;
+}
+
+.p-20p {
+    padding: 20% !important;
+}
+
+.p-30p {
+    padding: 30% !important;
+}
+
+.p-40p {
+    padding: 40% !important;
+}
+
+.p-50p {
+    padding: 50% !important;
+}
+
 
 
 
@@ -267,6 +310,51 @@ font-weight: 500;
 
 .mt-10{
     margin-top: 10%;
+}
+/* Marges inférieures */
+.mb-0 {
+    margin-bottom: 0 !important;
+}
+
+.mb-1 {
+    margin-bottom: 0.25rem !important;
+}
+
+.mb-2 {
+    margin-bottom: 0.5rem !important;
+}
+
+.mb-3 {
+    margin-bottom: 1rem !important;
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem !important;
+}
+
+.mb-5 {
+    margin-bottom: 3rem !important;
+}
+
+/* Marges inférieures en pourcentage */
+.mb-10p {
+    margin-bottom: 10% !important;
+}
+
+.mb-20p {
+    margin-bottom: 20% !important;
+}
+
+.mb-30p {
+    margin-bottom: 30% !important;
+}
+
+.mb-40p {
+    margin-bottom: 40% !important;
+}
+
+.mb-50p {
+    margin-bottom: 50% !important;
 }
 
 .rounded-full {
