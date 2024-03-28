@@ -147,11 +147,22 @@
     border: 1px solid var(--secondary-color);
 }
 
+.btn-outline-reverse{
+    background-color: var(--secondary-color);
+    color: white;
+    border: 1px solid var(--secondary-color);
+    padding-top: 1%;
+}
+
 .btn-outline:hover{
     background-color: var(--secondary-color);
     color: white;
 }   
+.btn-outline-reverse:hover{
+    background-color: transparent;
+    color: var(--secondary-color);
 
+}
 .newsletter-card {
     background-image: url("/static/images/banner_newslettes.png");
     background-position: center;
@@ -229,6 +240,11 @@ textarea{
     background-position: center;
 }
 
+.about-hero{
+    background-image: url("/static/images/Background.jpg");
+    background-size: cover;
+    background-position: center;
+}
 .banner{
     background-size: cover;
     background-position: center;
