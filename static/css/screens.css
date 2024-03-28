@@ -2,9 +2,13 @@
     .mobile-none{
         display: none;
     }
+
     .mobile-block{
         display: block;
     }
+
+    
+
     .mobile-columns{
         flex-direction: column;
     }
@@ -47,5 +51,8 @@
     .mobile-mr-4{
         margin-right: 4px;
     }
+
+
+
 
 }

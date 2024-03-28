@@ -1,0 +1,55 @@
+<div class="menu-mobile-container m-0 d-none" id="menu-mobile" value="wdef">
+        <ul class="nav-items">
+            <li class="nav-item"><h3 class="m-0">
+                <a href="{{ url_for('home' ) }}" class="nav-link">Acceuil</a></h3></li>
+            
+            <li class="nav-item"><h3 class="m-0">
+                <a href="{{ url_for('about' ) }}" class="nav-link">A propos</a></h3></li>
+            
+            <li class="nav-item"><h3 class="m-0">
+                <a href="{{ url_for('services' ) }}" class="nav-link">Services</a></h3></li>
+            
+            <li class="nav-item"><h3 class="m-0">
+                <a href="{{ url_for('contact' ) }}" class="nav-link">Contact</a></h3></li>
+            
+        </ul>
+</div>
+
+
+<script>
+    const collapse = () =>{
+        let isMenuCollapsed = localStorage.getItem("isMenuCollapsed")
+        if( isMenuCollapsed === null) {
+            localStorage.setItem("isMenuCollapsed", "false")
+        }
+        isMenuCollapsed = localStorage.getItem("isMenuCollapsed")
+        console.log(isMenuCollapsed);
+        let btn_menu = $("#btn-menu")
+        let menu_mobile = $("#menu-mobile")
+
+        btn_menu.click(function(e){
+            e.preventDefault()
+            if( isMenuCollapsed === "true") {
+                localStorage.setItem("isMenuCollapsed", "false")
+                menu_mobile.addClass("d-none")
+                isMenuCollapsed = localStorage.getItem("isMenuCollapsed")
+
+            } else{
+                localStorage.setItem("isMenuCollapsed", "true")
+                menu_mobile.removeClass("d-none")
+                isMenuCollapsed = localStorage.getItem("isMenuCollapsed")
+
+            }
+        })
+
+        $(".nav-link").click(function(e){
+            localStorage.setItem("isMenuCollapsed", "false")
+            isMenuCollapsed = localStorage.getItem("isMenuCollapsed")
+
+        })
+
+    }
+
+    collapse()
+
+</script>

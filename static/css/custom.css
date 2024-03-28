@@ -229,6 +229,32 @@ textarea{
     background-position: center;
 }
 
+.banner{
+    background-size: cover;
+    background-position: center;
+}
+
+.play-video-banner{
+ background-image: url("/static/images/paly_vido_banner.jpg");
+ height: 100vh;
+}
+
+.menu-mobile-container{
+    position: absolute;
+    width: 100%;
+    background-color: #8FA8A8;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    /* margin-left: 10px;
+    margin-right: 10px; */
+}
+
+.card-menu-mobile{
+    /* margin: 0 10px; */
+    background-color: #8FA8A8;
+    height: 100%;
+}
+
 .img-cqnfs{
 
 }
