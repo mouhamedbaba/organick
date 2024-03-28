@@ -163,6 +163,11 @@
     color: var(--secondary-color);
 
 }
+
+.btn-yellow{
+    background-color: #EFD372;
+    color: var(--secondary-color);
+}
 .newsletter-card {
     background-image: url("/static/images/banner_newslettes.png");
     background-position: center;
@@ -336,4 +341,19 @@ ul{
 
 .offer-product-img{
         width: 80%;
+}
+.hero-home{
+        background-image: url("/static/images/banner-home.png");
+}
+.banner-promo{
+    border-radius: 8px;
+    padding: 30px;
+}
+
+.banner-promo-1{
+    background-image: url("/static/images/promo1.jpg");
+}
+
+.banner-promo-2{
+    background-image: url("/static/images/promo2.jpg");
 }
